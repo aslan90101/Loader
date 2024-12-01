@@ -80,7 +80,7 @@ TextButton_3.Text = "Best Rainbow Script Hub"
 TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.TextSize = 21.000
 TextButton_3.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/1233/refs/heads/main/GUI121.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/1233/refs/heads/main/GUI12.lua", true))()
 end)
 
 TextLabel.Parent = Loader
