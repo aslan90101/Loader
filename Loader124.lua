@@ -228,7 +228,7 @@ TextButton_7.Text = "Evade Bhop"
 TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_7.TextSize = 21.000
 TextButton_7.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/123/refs/heads/main/asasasas.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/123/refs/heads/main/ass.lua", true))()
 end)
 
 TextButton_8.Parent = ScreenGui
