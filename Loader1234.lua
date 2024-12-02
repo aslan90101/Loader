@@ -21,7 +21,8 @@ local Frame_7 = Instance.new("Frame")
 local Frame_8 = Instance.new("Frame")
 local Frame_9 = Instance.new("Frame")
 local TextButton_5 = Instance.new("TextButton")
-local WATERMARKASLAN = Instance.new("TextLabel")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
 
 --Properties:
 
@@ -34,9 +35,8 @@ Loader.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Loader.BackgroundTransparency = 0.250
 Loader.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Loader.BorderSizePixel = 0
-Loader.Position = UDim2.new(0.3492001, 0, 0.286432147, 0)
+Loader.Position = UDim2.new(0.352872074, 0, 0.270100504, 0)
 Loader.Size = UDim2.new(0, 551, 0, 290)
-Loader.Visible = false
 
 TextButton.Parent = Loader
 TextButton.BackgroundColor3 = Color3.fromRGB(88, 0, 0)
@@ -46,7 +46,7 @@ TextButton.BorderSizePixel = 0
 TextButton.Position = UDim2.new(0.0199637022, 0, 0.0379310362, 0)
 TextButton.Size = UDim2.new(0, 200, 0, 50)
 TextButton.Font = Enum.Font.SourceSansBold
-TextButton.Text = "Script Hub "
+TextButton.Text = "Script Hub 31"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 43.000
 TextButton.MouseButton1Down:connect(function()
@@ -58,8 +58,8 @@ TextButton_2.BackgroundColor3 = Color3.fromRGB(88, 0, 0)
 TextButton_2.BackgroundTransparency = 0.550
 TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.BorderSizePixel = 0
-TextButton_2.Position = UDim2.new(0.55535388, 0, 0.0379310362, 0)
-TextButton_2.Size = UDim2.new(0, 228, 0, 50)
+TextButton_2.Position = UDim2.new(0.593466401, 0, 0.0379310362, 0)
+TextButton_2.Size = UDim2.new(0, 203, 0, 50)
 TextButton_2.Font = Enum.Font.SourceSansBold
 TextButton_2.Text = "Script Hub Neverlose"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -73,7 +73,7 @@ TextButton_3.BackgroundColor3 = Color3.fromRGB(88, 0, 0)
 TextButton_3.BackgroundTransparency = 0.550
 TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.BorderSizePixel = 0
-TextButton_3.Position = UDim2.new(0.0199637022, 0, 0.293103456, 0)
+TextButton_3.Position = UDim2.new(0.0199637022, 0, 0.262068957, 0)
 TextButton_3.Size = UDim2.new(0, 200, 0, 50)
 TextButton_3.Font = Enum.Font.SourceSansBold
 TextButton_3.Text = "Best Rainbow Script Hub"
@@ -101,7 +101,7 @@ TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 0.970
 TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.566243172, 0, 0.672413766, 0)
+TextLabel_2.Position = UDim2.new(0.560798526, 0, 0.672413766, 0)
 TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_2.Font = Enum.Font.SourceSansBold
 TextLabel_2.Text = "PIDOR: od1ioncheat"
@@ -113,10 +113,10 @@ TextButton_4.BackgroundColor3 = Color3.fromRGB(88, 0, 0)
 TextButton_4.BackgroundTransparency = 0.550
 TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.BorderSizePixel = 0
-TextButton_4.Position = UDim2.new(0.55535388, 0, 0.293103456, 0)
-TextButton_4.Size = UDim2.new(0, 229, 0, 50)
+TextButton_4.Position = UDim2.new(0.593466401, 0, 0.262068957, 0)
+TextButton_4.Size = UDim2.new(0, 203, 0, 50)
 TextButton_4.Font = Enum.Font.SourceSansBold
-TextButton_4.Text = "Chambypass BY od1oncheat"
+TextButton_4.Text = "Chams BY od1oncheat"
 TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.TextSize = 21.000
 TextButton_4.MouseButton1Down:connect(function()
@@ -185,37 +185,52 @@ Frame_9.BorderSizePixel = 0
 Frame_9.Position = UDim2.new(-1.81665437e-05, 0, 0.582655072, 0)
 Frame_9.Size = UDim2.new(0, 280, 0, 2)
 
-TextButton_5.Parent = ScreenGui
-TextButton_5.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
-TextButton_5.BackgroundTransparency = 0.600
+TextButton_5.Parent = Loader
+TextButton_5.BackgroundColor3 = Color3.fromRGB(88, 0, 0)
+TextButton_5.BackgroundTransparency = 0.550
 TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.BorderSizePixel = 0
-TextButton_5.Position = UDim2.new(0.457824081, 0, 0.939698517, 0)
-TextButton_5.Size = UDim2.new(0, 195, 0, 40)
+TextButton_5.Position = UDim2.new(0.0199637022, 0, 0.465517253, 0)
+TextButton_5.Size = UDim2.new(0, 247, 0, 25)
 TextButton_5.Font = Enum.Font.SourceSansBold
-TextButton_5.Text = "OpenLoader"
+TextButton_5.Text = "Сделать Светяшку !F кнопка!"
 TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_5.TextSize = 43.000
-TextButton_5.TextTransparency = 0.360
+TextButton_5.TextSize = 21.000
+TextButton_5.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/123-/refs/heads/main/ezezez.lua", true))()
+end)
 
-WATERMARKASLAN.Name = "WATERMARK ASLAN"
-WATERMARKASLAN.Parent = ScreenGui
-WATERMARKASLAN.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-WATERMARKASLAN.BackgroundTransparency = 1.000
-WATERMARKASLAN.BorderColor3 = Color3.fromRGB(0, 0, 0)
-WATERMARKASLAN.BorderSizePixel = 0
-WATERMARKASLAN.Position = UDim2.new(0.927172601, 0, 0, 0)
-WATERMARKASLAN.Size = UDim2.new(0, 119, 0, 25)
-WATERMARKASLAN.Font = Enum.Font.SourceSansBold
-WATERMARKASLAN.Text = "By ♥Aslan♥"
-WATERMARKASLAN.TextColor3 = Color3.fromRGB(255, 0, 4)
-WATERMARKASLAN.TextSize = 15.000
-WATERMARKASLAN.TextStrokeTransparency = 0.000
-WATERMARKASLAN.TextTransparency = 0.300
+TextButton_6.Parent = Loader
+TextButton_6.BackgroundColor3 = Color3.fromRGB(88, 0, 0)
+TextButton_6.BackgroundTransparency = 0.550
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.513611615, 0, 0.465517253, 0)
+TextButton_6.Size = UDim2.new(0, 247, 0, 25)
+TextButton_6.Font = Enum.Font.SourceSansBold
+TextButton_6.Text = "полоса за игроком раинбов"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 21.000
+TextButton_6.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/123qwe/refs/heads/main/flua.lua", true))()
+end)
+
+TextButton_7.Parent = ScreenGui
+TextButton_7.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+TextButton_7.BackgroundTransparency = 0.600
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.457824081, 0, 0.93844223, 0)
+TextButton_7.Size = UDim2.new(0, 195, 0, 40)
+TextButton_7.Font = Enum.Font.SourceSansBold
+TextButton_7.Text = "OpenLoader"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 43.000
+TextButton_7.TextTransparency = 0.360
 
 -- Scripts:
 
-local function KDOL_fake_script() -- TextButton.LocalScript 
+local function GCJSZ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -247,8 +262,8 @@ local function KDOL_fake_script() -- TextButton.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(KDOL_fake_script)()
-local function JALDJV_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(GCJSZ_fake_script)()
+local function JEAHSL_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local button = script.Parent
@@ -280,8 +295,8 @@ local function JALDJV_fake_script() -- TextButton_2.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(JALDJV_fake_script)()
-local function BBXPJ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(JEAHSL_fake_script)()
+local function MOOUG_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local button = script.Parent
@@ -313,8 +328,8 @@ local function BBXPJ_fake_script() -- TextButton_3.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(BBXPJ_fake_script)()
-local function PKFPSXR_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(MOOUG_fake_script)()
+local function MQMUJG_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local button = script.Parent
@@ -346,8 +361,8 @@ local function PKFPSXR_fake_script() -- TextButton_4.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(PKFPSXR_fake_script)()
-local function KVZILY_fake_script() -- Frame.LocalScript 
+coroutine.wrap(MQMUJG_fake_script)()
+local function AWOTDD_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -374,8 +389,8 @@ local function KVZILY_fake_script() -- Frame.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(KVZILY_fake_script)()
-local function YIKX_fake_script() -- Loader.LocalScript 
+coroutine.wrap(AWOTDD_fake_script)()
+local function ONSDI_fake_script() -- Loader.LocalScript 
 	local script = Instance.new('LocalScript', Loader)
 
 	ui = script.Parent
@@ -383,8 +398,8 @@ local function YIKX_fake_script() -- Loader.LocalScript
 	ui.Active = true
 	ui.Selectable = true
 end
-coroutine.wrap(YIKX_fake_script)()
-local function XYZNPD_fake_script() -- Frame_2.LocalScript 
+coroutine.wrap(ONSDI_fake_script)()
+local function MSZRZPZ_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -411,8 +426,8 @@ local function XYZNPD_fake_script() -- Frame_2.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(XYZNPD_fake_script)()
-local function PEJC_fake_script() -- Frame_3.LocalScript 
+coroutine.wrap(MSZRZPZ_fake_script)()
+local function HJXPU_fake_script() -- Frame_3.LocalScript 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -439,8 +454,8 @@ local function PEJC_fake_script() -- Frame_3.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(PEJC_fake_script)()
-local function SFSJ_fake_script() -- Frame_4.LocalScript 
+coroutine.wrap(HJXPU_fake_script)()
+local function ZNXBOR_fake_script() -- Frame_4.LocalScript 
 	local script = Instance.new('LocalScript', Frame_4)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -467,8 +482,8 @@ local function SFSJ_fake_script() -- Frame_4.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(SFSJ_fake_script)()
-local function JKAC_fake_script() -- Frame_5.LocalScript 
+coroutine.wrap(ZNXBOR_fake_script)()
+local function RTWWA_fake_script() -- Frame_5.LocalScript 
 	local script = Instance.new('LocalScript', Frame_5)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -495,8 +510,8 @@ local function JKAC_fake_script() -- Frame_5.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(JKAC_fake_script)()
-local function NAGHCLR_fake_script() -- Frame_6.LocalScript 
+coroutine.wrap(RTWWA_fake_script)()
+local function GJOJA_fake_script() -- Frame_6.LocalScript 
 	local script = Instance.new('LocalScript', Frame_6)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -523,8 +538,8 @@ local function NAGHCLR_fake_script() -- Frame_6.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(NAGHCLR_fake_script)()
-local function IPCAXJR_fake_script() -- Frame_7.LocalScript 
+coroutine.wrap(GJOJA_fake_script)()
+local function GUBDVIN_fake_script() -- Frame_7.LocalScript 
 	local script = Instance.new('LocalScript', Frame_7)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -551,8 +566,8 @@ local function IPCAXJR_fake_script() -- Frame_7.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(IPCAXJR_fake_script)()
-local function MOOCW_fake_script() -- Frame_8.LocalScript 
+coroutine.wrap(GUBDVIN_fake_script)()
+local function JAUPCUT_fake_script() -- Frame_8.LocalScript 
 	local script = Instance.new('LocalScript', Frame_8)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -579,8 +594,8 @@ local function MOOCW_fake_script() -- Frame_8.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(MOOCW_fake_script)()
-local function QSOIZVE_fake_script() -- Frame_9.LocalScript 
+coroutine.wrap(JAUPCUT_fake_script)()
+local function TBQF_fake_script() -- Frame_9.LocalScript 
 	local script = Instance.new('LocalScript', Frame_9)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -607,23 +622,8 @@ local function QSOIZVE_fake_script() -- Frame_9.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(QSOIZVE_fake_script)()
-local function UTEQEAJ_fake_script() -- TextButton_5.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_5)
-
-	local button = script.Parent
-	local frame = button.Parent:FindFirstChild("Loader") -- Найдите фрейм в родительском объекте
-	
-	local function toggleFrameVisibility()
-		frame.Visible = not frame.Visible -- Переключите видимость фрейма
-	end
-	
-	button.MouseButton1Click:Connect(toggleFrameVisibility)
-	
-	
-end
-coroutine.wrap(UTEQEAJ_fake_script)()
-local function FJHPQK_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(TBQF_fake_script)()
+local function LBQUXS_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	local button = script.Parent
@@ -631,7 +631,7 @@ local function FJHPQK_fake_script() -- TextButton_5.LocalScript
 	
 	-- Определяем параметры анимации
 	local originalSize = button.Size
-	local enlargedSize = UDim2.new(0, 187, 0, 45) -- Увеличенный размер кнопки
+	local enlargedSize = UDim2.new(0, 220, 0, 60) -- Увеличенный размер кнопки
 	local originalColor = button.BackgroundColor3
 	
 	local function onMouseEnter()
@@ -655,27 +655,86 @@ local function FJHPQK_fake_script() -- TextButton_5.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(FJHPQK_fake_script)()
-local function XRRHEN_fake_script() -- WATERMARKASLAN.LocalScript 
-	local script = Instance.new('LocalScript', WATERMARKASLAN)
+coroutine.wrap(LBQUXS_fake_script)()
+local function TGPC_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
 
-	local textLabel = script.Parent
-	local originalTextSize = textLabel.TextSize
-	local scaleFactor = 5-- На сколько увеличивать и уменьшать размер текста
-	local speed = 5-- Скорость анимации
+	local button = script.Parent
+	local tweenService = game:GetService("TweenService")
 	
-	while true do
-		-- Увеличиваем размер текста
-		for i = 0, 1, 0.01 do
-			textLabel.TextSize = originalTextSize + scaleFactor * i
-			wait(0.01 / speed)
-		end
-		-- Уменьшаем размер текста
-		for i = 0, 1, 0.01 do
-			textLabel.TextSize = originalTextSize + scaleFactor * (1 - i)
-			wait(0.01 / speed)
-		end
+	-- Определяем параметры анимации
+	local originalSize = button.Size
+	local enlargedSize = UDim2.new(0, 220, 0, 60) -- Увеличенный размер кнопки
+	local originalColor = button.BackgroundColor3
+	
+	local function onMouseEnter()
+		local tween = tweenService:Create(button, TweenInfo.new(0.2), {Size = enlargedSize, BackgroundColor3 = Color3.new(0, 0.7, 1)})
+		tween:Play()
 	end
 	
+	local function onMouseLeave()
+		local tween = tweenService:Create(button, TweenInfo.new(0.2), {Size = originalSize, BackgroundColor3 = originalColor})
+		tween:Play()
+	end
+	
+	local function onMouseClick()
+		local tween = tweenService:Create(button, TweenInfo.new(0.1), {Size = originalSize, BackgroundColor3 = Color3.new(0, 0.3, 0.8)})
+		tween:Play()
+	end
+	
+	-- Подключаем события мыши
+	button.MouseEnter:Connect(onMouseEnter)
+	button.MouseLeave:Connect(onMouseLeave)
+	button.MouseButton1Click:Connect(onMouseClick)
+	
 end
-coroutine.wrap(XRRHEN_fake_script)()
+coroutine.wrap(TGPC_fake_script)()
+local function DSWJODY_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local button = script.Parent
+	local frame = button.Parent:FindFirstChild("Loader") -- Найдите фрейм в родительском объекте
+	
+	local function toggleFrameVisibility()
+		frame.Visible = not frame.Visible -- Переключите видимость фрейма
+	end
+	
+	button.MouseButton1Click:Connect(toggleFrameVisibility)
+	
+	
+end
+coroutine.wrap(DSWJODY_fake_script)()
+local function YTOL_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local button = script.Parent
+	local tweenService = game:GetService("TweenService")
+	
+	-- Определяем параметры анимации
+	local originalSize = button.Size
+	local enlargedSize = UDim2.new(0, 189, 0, 45) -- Увеличенный размер кнопки
+	local originalColor = button.BackgroundColor3
+	
+	local function onMouseEnter()
+		local tween = tweenService:Create(button, TweenInfo.new(0.2), {Size = enlargedSize, BackgroundColor3 = Color3.new(0, 0.7, 1)})
+		tween:Play()
+	end
+	
+	local function onMouseLeave()
+		local tween = tweenService:Create(button, TweenInfo.new(0.2), {Size = originalSize, BackgroundColor3 = originalColor})
+		tween:Play()
+	end
+	
+	local function onMouseClick()
+		local tween = tweenService:Create(button, TweenInfo.new(0.1), {Size = originalSize, BackgroundColor3 = Color3.new(0, 0.3, 0.8)})
+		tween:Play()
+	end
+	
+	-- Подключаем события мыши
+	button.MouseEnter:Connect(onMouseEnter)
+	button.MouseLeave:Connect(onMouseLeave)
+	button.MouseButton1Click:Connect(onMouseClick)
+	
+end
+coroutine.wrap(YTOL_fake_script)()
+
