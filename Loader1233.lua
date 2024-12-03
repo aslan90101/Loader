@@ -24,6 +24,7 @@ local TextButton_5 = Instance.new("TextButton")
 local TextButton_6 = Instance.new("TextButton")
 local TextButton_7 = Instance.new("TextButton")
 local TextButton_8 = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -38,6 +39,7 @@ Loader.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Loader.BorderSizePixel = 0
 Loader.Position = UDim2.new(0.352872074, 0, 0.270100504, 0)
 Loader.Size = UDim2.new(0, 551, 0, 290)
+Loader.Visible = false
 
 TextButton.Parent = Loader
 TextButton.BackgroundColor3 = Color3.fromRGB(88, 0, 0)
@@ -244,9 +246,21 @@ TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_8.TextSize = 43.000
 TextButton_8.TextTransparency = 0.360
 
+TextLabel_3.Parent = ScreenGui
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.913096666, 0, -0.0113065327, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "ASLAN HUB"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 15.000
+
 -- Scripts:
 
-local function ZZLS_fake_script() -- TextButton.LocalScript 
+local function QYVZYY_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -278,8 +292,8 @@ local function ZZLS_fake_script() -- TextButton.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(ZZLS_fake_script)()
-local function JPUBSAQ_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(QYVZYY_fake_script)()
+local function YOQFX_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local button = script.Parent
@@ -311,8 +325,8 @@ local function JPUBSAQ_fake_script() -- TextButton_2.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(JPUBSAQ_fake_script)()
-local function XMIHK_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(YOQFX_fake_script)()
+local function OZPQZSW_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local button = script.Parent
@@ -344,8 +358,8 @@ local function XMIHK_fake_script() -- TextButton_3.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(XMIHK_fake_script)()
-local function BWDDD_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(OZPQZSW_fake_script)()
+local function KSVNOO_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local button = script.Parent
@@ -377,8 +391,8 @@ local function BWDDD_fake_script() -- TextButton_4.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(BWDDD_fake_script)()
-local function LPZI_fake_script() -- Frame.LocalScript 
+coroutine.wrap(KSVNOO_fake_script)()
+local function VEHV_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -405,8 +419,8 @@ local function LPZI_fake_script() -- Frame.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(LPZI_fake_script)()
-local function SQZOL_fake_script() -- Loader.LocalScript 
+coroutine.wrap(VEHV_fake_script)()
+local function ZONBCK_fake_script() -- Loader.LocalScript 
 	local script = Instance.new('LocalScript', Loader)
 
 	ui = script.Parent
@@ -414,8 +428,8 @@ local function SQZOL_fake_script() -- Loader.LocalScript
 	ui.Active = true
 	ui.Selectable = true
 end
-coroutine.wrap(SQZOL_fake_script)()
-local function VGCEOLT_fake_script() -- Frame_2.LocalScript 
+coroutine.wrap(ZONBCK_fake_script)()
+local function FRUM_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -442,8 +456,8 @@ local function VGCEOLT_fake_script() -- Frame_2.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(VGCEOLT_fake_script)()
-local function LYGVR_fake_script() -- Frame_3.LocalScript 
+coroutine.wrap(FRUM_fake_script)()
+local function TAIIS_fake_script() -- Frame_3.LocalScript 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -470,8 +484,8 @@ local function LYGVR_fake_script() -- Frame_3.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(LYGVR_fake_script)()
-local function NOXG_fake_script() -- Frame_4.LocalScript 
+coroutine.wrap(TAIIS_fake_script)()
+local function ROSZ_fake_script() -- Frame_4.LocalScript 
 	local script = Instance.new('LocalScript', Frame_4)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -498,8 +512,8 @@ local function NOXG_fake_script() -- Frame_4.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(NOXG_fake_script)()
-local function JDLXNCP_fake_script() -- Frame_5.LocalScript 
+coroutine.wrap(ROSZ_fake_script)()
+local function ESTE_fake_script() -- Frame_5.LocalScript 
 	local script = Instance.new('LocalScript', Frame_5)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -526,8 +540,8 @@ local function JDLXNCP_fake_script() -- Frame_5.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(JDLXNCP_fake_script)()
-local function JDGIRIL_fake_script() -- Frame_6.LocalScript 
+coroutine.wrap(ESTE_fake_script)()
+local function SAZEBPA_fake_script() -- Frame_6.LocalScript 
 	local script = Instance.new('LocalScript', Frame_6)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -554,8 +568,8 @@ local function JDGIRIL_fake_script() -- Frame_6.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(JDGIRIL_fake_script)()
-local function CPWQDF_fake_script() -- Frame_7.LocalScript 
+coroutine.wrap(SAZEBPA_fake_script)()
+local function QERHDW_fake_script() -- Frame_7.LocalScript 
 	local script = Instance.new('LocalScript', Frame_7)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -582,8 +596,8 @@ local function CPWQDF_fake_script() -- Frame_7.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(CPWQDF_fake_script)()
-local function RLBHV_fake_script() -- Frame_8.LocalScript 
+coroutine.wrap(QERHDW_fake_script)()
+local function CMCBTQ_fake_script() -- Frame_8.LocalScript 
 	local script = Instance.new('LocalScript', Frame_8)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -610,8 +624,8 @@ local function RLBHV_fake_script() -- Frame_8.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(RLBHV_fake_script)()
-local function JWXEEDA_fake_script() -- Frame_9.LocalScript 
+coroutine.wrap(CMCBTQ_fake_script)()
+local function VEDOH_fake_script() -- Frame_9.LocalScript 
 	local script = Instance.new('LocalScript', Frame_9)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -638,8 +652,8 @@ local function JWXEEDA_fake_script() -- Frame_9.LocalScript
 	-- Запускаем анимацию
 	animateColor()
 end
-coroutine.wrap(JWXEEDA_fake_script)()
-local function SVCN_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(VEDOH_fake_script)()
+local function DREPH_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	local button = script.Parent
@@ -671,8 +685,8 @@ local function SVCN_fake_script() -- TextButton_5.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(SVCN_fake_script)()
-local function PJCOP_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(DREPH_fake_script)()
+local function YLVK_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local button = script.Parent
@@ -704,8 +718,8 @@ local function PJCOP_fake_script() -- TextButton_6.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(PJCOP_fake_script)()
-local function RLORWRD_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(YLVK_fake_script)()
+local function TZYEAD_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	local button = script.Parent
@@ -737,8 +751,8 @@ local function RLORWRD_fake_script() -- TextButton_7.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(RLORWRD_fake_script)()
-local function QXJCK_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(TZYEAD_fake_script)()
+local function ZOXW_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	local button = script.Parent
@@ -752,8 +766,8 @@ local function QXJCK_fake_script() -- TextButton_8.LocalScript
 	
 	
 end
-coroutine.wrap(QXJCK_fake_script)()
-local function LZOITTL_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(ZOXW_fake_script)()
+local function ITWMQF_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	local button = script.Parent
@@ -785,5 +799,37 @@ local function LZOITTL_fake_script() -- TextButton_8.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(LZOITTL_fake_script)()
+coroutine.wrap(ITWMQF_fake_script)()
+local function DADGRWC_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	local textLabel = script.Parent
+	local originalTextSize = textLabel.TextSize
+	local scaleFactor = 4-- На сколько увеличивать и уменьшать размер текста
+	local speed = 15-- Скорость анимации
+	
+	while true do
+		-- Увеличиваем размер текста
+		for i = 0, 1, 0.01 do
+			textLabel.TextSize = originalTextSize + scaleFactor * i
+			wait(0.01 / speed)
+		end
+		-- Уменьшаем размер текста
+		for i = 0, 1, 0.01 do
+			textLabel.TextSize = originalTextSize + scaleFactor * (1 - i)
+			wait(0.01 / speed)
+		end
+	end
+	
+end
+coroutine.wrap(DADGRWC_fake_script)()
+local function PMYUGO_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	while task.wait(1/20) do
+		script.Parent.TextColor3 = Color3.fromHSV(tick() % 20/20, 1, 1)
+	end
+	
+end
+coroutine.wrap(PMYUGO_fake_script)()
 
